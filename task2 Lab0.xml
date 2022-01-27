@@ -1,0 +1,17 @@
+<admission>
+	<student SL="23">
+		<firstNAME> John </firstNAME> <lastNAME> Carter </lastNAME>
+		<admission_date> 25/ </admission_date><admission_month> 12/ </admission_month> <admission_year> 2015 </admission_year>
+	</student>
+	
+	<student SL="29">
+		<firstNAME> Bob </firstNAME> <lastNAME> Marshal </lastNAME>
+		<admission_date> 13/ </admission_date><admission_month> 01/ </admission_month><admission_year> 1999 </admission_year>
+	</student>
+	
+	<student SL="35">
+		<firstNAME> Clark </firstNAME> <lastNAME> Kent </lastNAME>
+		<admission_date> 17/ </admission_date><admission_month> 06/ </admission_month><admission_year> 2005 </admission_year>
+	</student>
+</admission>
+	

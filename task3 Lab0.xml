@@ -1,0 +1,23 @@
+<salaryList>
+	<employee ID="1">
+		<firstNAME> John </firstNAME> <lastNAME> Doe </lastNAME>
+		<add_home> H# 38, R#3, </add_home><add_area> Banani, </add_area><add_district> Dhaka </add_district>
+		<DEPARTMENT> Sales </DEPARTMENT>
+		<SALARY> $20000 </SALARY>
+	</employee>
+	
+	<employee ID="2">
+		<firstNAME> Mark </firstNAME> <lastNAME> Zuckerberg </lastNAME>
+		<add_home> Flat# A/1, H# 20, R#18, </add_home><add_area> Mirpur, </add_area><add_district> Dhaka </add_district>
+		<DEPARTMENT> Accounts </DEPARTMENT>
+		<SALARY> $12000 </SALARY>
+	</employee>
+	
+	<employee ID="3">
+		<firstNAME> Ala </firstNAME> <lastNAME> Voski </lastNAME>
+		<add_home> H# 38, R#3, </add_home><add_area> Motijheel, </add_area><add_district> </add_district>
+		<DEPARTMENT> Human Resourse </DEPARTMENT>
+		<SALARY> $30000 </SALARY>
+	</employee>
+</salaryList>
+	
