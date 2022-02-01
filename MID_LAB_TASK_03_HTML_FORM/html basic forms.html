@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+
+<form>
+		<table border="1" align="center" width="35%">
+		<tr height="60px">
+		<td colspan="3" align="center"><h2>PERSONAL PROFILE</h2></td> 
+		</tr>
+		<tr>
+		<td width="8%"><label for="name">Name</label></td>
+		<td width="20%"><input type="text" id="fname" name="fname"></td>
+		<td width="3%"> </td>
+		</tr>
+		<tr>
+		<td width="8%"><label for="email">Email</label></td>
+		<td width="20%"><input type="text" id="email" name="email"></td>
+		<td width="3%"> </td>
+		</tr>
+		<tr>
+		<td width="8%"><label for="gender">Gender</label></td>
+		<td width="20">
+		<p><input type="radio" id="male" name="gender" value="Male">
+		<label for="gender">Male</label>
+		<input type="radio" id="female" name="gender" value="Female">
+		<label for="gender">Female</label>
+		<input type="radio" id="other" name="gender" value="Other">
+		<label for="gender">Other</label></p>
+		</td>
+		<td width="3%"></td>
+		<tr>
+		<td width="8%"><label for="dob">Date of Birth</label></td>
+        <td width="20%">
+		<input type="number" id="date" name="date">/
+		<input type="number" id="month" name="month">/
+		<input type="number" id="year" name="year"><i>(dd/mm/yyyy)</i></td>
+		<td width="3%"></td>
+		<tr>
+		<td width="8%">Blood Group</td>
+		<td width="20">
+		<select name="blood" id="blood">
+			<option value="A+">A+</option><option value="B+">B+</option><option value="AB+">AB+</option><option value="AB-">AB-</option><option value="O+">O+</option>><option value="O-">O-</option>
+		</select></td>
+		<td width="3%"></td></tr>
+		<tr>
+		<td width="3%">Degree</td>
+		<td width="20%"><input type="checkbox" name="degree" value="SSC">SSC
+			<input type="checkbox" name="degree" value="HSC">HSC
+			<input type="checkbox" name="degree" value="BSc.">BSc.
+			<input type="checkbox" name="degree" value="MSc.">MSc.
+		</td>
+		<td width="3%"></td>
+		</tr>
+		<tr>
+		<td width="8%">Photo</td>
+		<td width="20%"><input type="file" name="pic" value="">
+		<td width="3%"></td>
+		<tr>
+		<td colspan="3" height="30px"></td>
+		</tr>
+		<tr>
+		<td colspan="3" align="right">
+		<input type="submit" name="submit" value="Submit">
+		<input type="reset" name="reset" value="Reset">
+		</td></tr>
+</form>
+</body>
+</html>
