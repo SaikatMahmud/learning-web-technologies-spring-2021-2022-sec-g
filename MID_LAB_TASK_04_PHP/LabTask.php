@@ -85,10 +85,35 @@
 	}
 	search("Bogra");
 	echo "\n";
+	echo "\n";
+//Task 6 has an issue.
 
 
+	echo "Task 7"."\n";
+	function taskSeven()
+	{
+	  for ($i = 0; $i <=3; ++$i)
+	  {
+    	 for ($j = 1; $j <= $i; ++$j)
+      		{
+         		echo ("* ");
+      		}
+     	 echo ("\n");
+   	   }
 
+	  for ($i = 0; $i <=3; ++$i)
+	  {
+    	 for ($j = 1; $j <= $i; ++$j)
+      		{
+         		echo ($j." ");
+      		}
+     	 echo ("\n");
+   	   }
 
+	}
+	taskSeven();
+	echo "\n";
+	echo "\n";
 
 
 ?>
