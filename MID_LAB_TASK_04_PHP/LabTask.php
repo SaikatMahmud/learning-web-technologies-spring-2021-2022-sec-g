@@ -67,7 +67,7 @@
 	echo "Task 6"."\n";
 	function search($element)
 	{
-		$elements = ["Dhaka","Bogra","Ctg","Raj"];
+		$elements = array("Dhaka","Bogra","Ctg","Raj");
 		$found;
 		$count=0;
 		for ($i=0; $i <sizeof($elements) ; $i++) { 
@@ -91,4 +91,4 @@
 
 
 
-
+?>
