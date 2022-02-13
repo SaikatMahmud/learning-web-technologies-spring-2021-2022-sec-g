@@ -1,7 +1,5 @@
 <?php 
 
-//$uname = "";
-
 if(isset($_REQUEST['submit']))
 {
 		
@@ -11,9 +9,9 @@ if(isset($_REQUEST['submit']))
 	}
 	else
 	{
-		echo "$name";
-	}
+		echo ($_REQUEST['name']);
 
+	}
 }
 
 ?>
