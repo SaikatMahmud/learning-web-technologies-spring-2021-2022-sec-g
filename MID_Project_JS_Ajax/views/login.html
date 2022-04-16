@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<title>login</title>
+</head>
+
+<body>
+	<script src="../js/valid.js"></script>
+	<form method="POST" action="#">
+		<table>
+			<tr>
+				<td>Username</td>
+				<td>
+					<input type="text" id="username" name="username" value="" onkeyup="checkUsername()">
+				</td>
+				<td id="usernameCheck"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>
+					<input type="password" id="password" name="password" value="" onkeyup="checkPassword()">
+				</td>
+				<td id="passCheck"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="button" name="submit" value="Submit" onclick="btnLogin()">
+				</td>
+			</tr>
+		</table>
+
+	</form>
+	<div id="noData"></div>
+	</br>
+	<a href="reg.php">SignUp </a>
+</body>
+
+</html>
