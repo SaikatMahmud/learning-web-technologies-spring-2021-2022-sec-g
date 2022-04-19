@@ -1,0 +1,63 @@
+<html>
+
+<head>
+	<title>login</title>
+</head>
+
+<body>
+	<style>
+		.table {
+			margin-left: auto;
+			margin-right: auto;
+
+		}
+
+		.popup {
+			width: 30%;
+			background-color: #2ecc71;
+			border: 12px solid skyblue;
+			padding: 25px 50px;
+			text-align: center;
+			vertical-align: middle;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 230px;
+			margin-bottom: auto;
+			border-radius: 0.5rem;
+		}
+	</style>
+	<script src="../js/valid.js"></script>
+	<form method="POST" action="#">
+        <div class="popup">
+            <table class="table">
+			<h2>Social Media</h2>
+			<tr>
+				<td>Username</td>
+				<td>
+					<input type="text" id="username" name="username" value="" onkeyup="checkUsername()">
+				</td>
+				<td id="usernameCheck"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>
+					<input type="password" id="password" name="password" value="" onkeyup="checkPassword()">
+				</td>
+				<td id="passCheck"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="button" name="submit" value="Submit" onclick="btnLogin()">
+				</td>
+			</tr>
+		</table>
+
+	</form>
+	<div id="noData"></div>
+	</br>
+	<a href="addUser.php">SignUp </a>
+</div>
+</body>
+
+</html>

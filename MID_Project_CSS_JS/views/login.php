@@ -48,12 +48,17 @@ if (isset($_POST['submit'])) {
     }
 
     .popup {
+        width: 30%;
         background-color: #2ecc71;
 		border: 12px solid skyblue;
         padding: 25px 50px;
         text-align: center;
         vertical-align: middle;
-		margin: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 230px;
+        margin-bottom: auto;
+        border-radius: 0.5rem;
     }
 
     </style>

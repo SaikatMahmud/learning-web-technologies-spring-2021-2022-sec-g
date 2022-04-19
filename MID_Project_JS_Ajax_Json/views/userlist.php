@@ -10,12 +10,6 @@ require('header.php');
 <html>
 <head>
 	<title>Userlist</title>
-	<style >
-		button{
-			cursor: pointer;
-		}
-
-	</style>
 </head>
 
 

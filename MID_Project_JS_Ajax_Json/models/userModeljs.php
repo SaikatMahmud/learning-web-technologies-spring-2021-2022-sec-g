@@ -78,12 +78,9 @@ function getAllUser()
            
             foreach($row as $i => $val ){
                 
-                
-                
                echo "<td>".$val."</td>";
                
-            }
-               
+            }    
                 echo "<td>";
             
                  echo"<button><a href='editUsers.php?id=".$row['id']."'> EDIT </a></button>";
@@ -104,7 +101,8 @@ function getAllUser()
                echo"</td>";
             
             echo "</tr>";
-             
+           
+            
         }
         echo "</table>";
  

@@ -6,11 +6,15 @@ $name = $_GET['name'];
 ?>
 
 <html>
+
 <head>
 	<title>Home Page</title>
-	<style>
+</head>
+
+<body>
+<style>
 			h1{
-				background-color: gray;
+				background-color: palegreen;
 				padding: 10px;
 			}
 			#name{
@@ -43,20 +47,26 @@ $name = $_GET['name'];
 			#logout:visited{
 				text-decoration: none;
 			}
+			#adminMood{
+					padding: 5px 5px 5px 5px;
+					background-color: wheat;
+					border-radius: 0.25rem;
+					color: black;
+					text-decoration: none;
+			}
+			#adminMood:hover{
+				border: 3px solid cornflowerblue;
+					background-color: whitesmoke;
+					border-radius: 0.25rem;
+					color:cornflowerblue;
+			}
 	</style>
-</head>
-
-<body>
 	<h1>Admin use this home page as a normal user !</h1>
-	<h4  align="right"><a id="logout" href="../controllers/logout.php"> logout</a></h4>
+	<h4 align="right"><a id="logout" href="../controllers/logout.php"> logout</a></h4>
 	<h2> Welcome <a id="name" href="showProfile.php?id=<?=$id?>&name=<?=$name?>"><?= $name ?></a></h2>
 	<h2 align="center"> ...news feed...</h2></br></br>
-
-
-
-
 	<!-- <a href="showProfile.php?id=<?=$id?>&name=<?=$name?>">Your Profile</a> </br></br> -->
-	<a href="adminHome.php?id=<?=$id?>&name=<?=$name?>">Go to admin mode</a>
+	<a id="adminMood" href="adminHome.php?id=<?=$id?>&name=<?=$name?>">Go to admin mode</a>
 
 </body>
 
